@@ -5,9 +5,13 @@ using System.Collections.Generic;
 
 /// @author Kaisa Koski
 /// @version 24.2.2021
-/// <summary>
-/// 
-/// </summary>
+///
+/// Algoritmit 1
+/// Ohjelmointitehtävä O5
+/// Kirjoita ohjelma, joka toteuttaa binäärihaun (puolitushaun) kokonaislukutaulukoille. 
+/// Testaa ohjelmaasi satunnaisella (mutta järjestetyllä!) taulukolla.
+
+
 public class Binaarihaku
 {
     /// <summary>

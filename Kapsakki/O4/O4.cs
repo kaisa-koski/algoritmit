@@ -5,9 +5,24 @@ using System.Collections.Generic;
 
 /// @author Kaisa Koski
 /// @version 28.4.2021
-/// <summary>
-/// 
-/// </summary>
+///
+/// Algoritmit 2
+/// Ohjelmointitehtävä O4
+/// Kapsäkkiongelmassa on valittavana n erilaista tavaraa. Tavaran i, missä i=1,2,...,n, 
+/// hyötyarvo on p_i ja paino w_i. Kapsäkillä on kokonaispainoraja W. Tehtävänä on valita 
+/// tavarat siten, että niiden hyötyarvojen summa on mahdollisimman suuri, mutta painoraja ei ylity.
+///
+/// Tiedetään, että kapsäkkiongelma voidaan ratkaista taulukoimalla seuraavasti: Määritellään s(k,r), 
+/// joka kertoo hyötyarvon, kun tavarat valitaan osajoukosta 1,2,...,k ja kokonaispaino on korkeintaan r. 
+/// Tällöin s(k,0)=0 kaikilla k=0,1,...,n, ja s(0,r)=0 kaikilla r=0,1,...,W. Muilla arvoilla k=1,2,...,n 
+/// ja r=1,2,...,W on
+///
+///  s(k,r) = { s(k-1,r) , jos w_k > r,
+///             max{s(k-1,r), p_k + s(k-1,r-w_k)}, jos w_k <= r } 
+///  
+/// Kirjoita ohjelma, joka ratkaisee kapsäkkiongelman taulukoimalla, ja testaa sitä jollain yksinkertaisella 
+/// esimerkkitehtävällä.
+///
 public class RantatarvikeJoukko
 {
     private Tarvike[] rantatarvikkeet = new Tarvike[]{null, new Tarvike("pyyhe", 2, 4),

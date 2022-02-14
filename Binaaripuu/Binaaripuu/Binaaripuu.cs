@@ -3,6 +3,22 @@ using System.Text;
 
 /// @author Kaisa Koski
 /// @version 9.2.2021
+/// 
+/// Algoritmit 1
+/// Ohjelmointitehtävä O3
+/// Määritellään binääripuun solmut esimerkiksi seuraavasti:
+///
+///  public class Solmu {
+///    public int key;
+///    public Solmu left;
+///    public Solmu right;
+///  }
+/// Kirjoita ohjelma, jolla voidaan käydä läpi tällaisen binääripuun solmut esijärjestyksessä,
+/// sisäjärjestyksessä ja jälkijärjestyksessä. Muodosta binääripuu (vähintään 10 solmua) ja 
+/// tulosta puun avainkenttien arvot jokaisessa em. järjestyksessä. Puun voi muodostaa "käsin" 
+/// sijoittamalla solmujen kenttiin yksitellen sopivat arvot. Binääripuiden lisäys-, haku- 
+/// tai poisto-operaatioita ei siis tarvitse toteuttaa.
+/// 
 /// <summary>
 /// Kokonaislukuja sisältävän binääripuun muodostaminen ja sen lukujen
 /// tulostaminen eri järjestyksissä.

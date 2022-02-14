@@ -5,9 +5,13 @@ using System.Collections.Generic;
 
 /// @author Kaisa Koski
 /// @version 14.2.2020
-/// <summary>
-/// 
-/// </summary>
+///
+/// Algoritmit 1
+/// Ohjelmointitehtävä O4
+/// Kirjoita ohjelma, joka toteuttaa kaksi erilaista lajittelualgoritmia kokonaislukutaulukoille. 
+/// Testaa menetelmiä satunnaisilla taulukoilla. Varmista, että menetelmät toimivat oikein toisistaan 
+/// riippumatta, eli testaa niitä eri taulukoilla.
+///
 public class Lajittelu
 {
     /// <summary>

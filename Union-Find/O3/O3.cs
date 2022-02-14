@@ -5,6 +5,14 @@ using System.Collections.Generic;
 
 /// @author Kaisa Koski
 /// @version 20.4.2021
+/// 
+/// Algoritmit 2
+/// Ohjelmointitehtävä O3
+/// Perusjoukossa on n kappaletta erillisiä merkkijonoja, esimerkiksi:
+///   {"banaani", "luumu", "omena", "persikka", "sitruuna"}
+/// Kirjoita ohjelma, joka toteuttaa union-find-operaatiot tämän tyyppiselle perusjoukolle. 
+/// Testaa operaatioiden toimivuus.
+///
 public class Alkio
 {
     private int arvo;

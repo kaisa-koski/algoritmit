@@ -5,6 +5,17 @@ using System.Collections.Generic;
 
 /// @author Kaisa Koski
 /// @version 13.4.2021
+/// 
+/// Algoritmit 2
+/// Ohjelmointitehtävä O2
+/// Kirjoita ohjelma, joka tallentaa kokonaislukuja taulukkoon käyttäen hajautusta. 
+/// Käytä avointa osoitteenmuodostusta ja esimerkiksi lineaarista etsintää. Toteuta
+/// ainakin lisäys- ja poisto-operaatiot. Testaa operaatioiden toimivuus.
+///
+/// Tässä riittää demotehtävän 1 mukainen yksinkertainen ratkaisu. Voidaan esimerkiksi sopia, 
+/// että tallennettavat luvut ovat positiivisia kokonaislukuja, jolloin 0 tarkoittaa arvoa 
+/// VAPAA ja -1 tarkoittaa arvoa POISTETTU.
+/// 
 /// <summary>
 /// Hajautustaulukon toteutus avoimella osoitteenmuodostuksella
 /// käyttäen lineaarista etsintää.

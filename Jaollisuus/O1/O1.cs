@@ -3,6 +3,12 @@ using System;
 /// @version 19.1.2021
 public class O1
 {
+    /// Algoritmit 1
+    /// Ohjelmointitehtävä O1
+    /// Kirjoita ohjelma, jolla voidaan laskea, kuinka moni kokonaislukutaulukon alkioista on jaollinen 
+    /// annetulla luvulla m.Muodosta taulukko, joka sisältää satunnaisia kokonaislukuja, ja laske kuinka 
+    /// moni sen luvuista on jaollinen luvuilla m = 2, m= 3 ja m = 5.
+    /// 
     /// <summary>
     /// Ohjelmassa luodaan satunnaisia lukuja sisältävä kokonaislukutaulukko
     /// ja lasketaan, kuinka monta taulukon alkioista on jaollisia luvuilla

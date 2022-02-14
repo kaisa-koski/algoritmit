@@ -3,6 +3,13 @@ using System.Text;
 
 /// @author Kaisa Koski
 /// @version 1.2.2021
+/// 
+/// Algoritmit 1
+/// Ohjelmointitehtävä O2
+/// Kirjoita ohjelma, joka toteuttaa pino-operaatiot push, pop, isEmpty, size ja top pinolle, 
+/// jonka alkiot ovat kokonaislukuja. Tietorakenteena voi käyttää tavallista taulukkoa. 
+/// Testaa kaikkien operaatioiden toimivuus.
+/// 
 /// <summary>
 /// Ohjelmassa demonstroidaan pinon operaatioita aliohjelmien avulla.
 /// </summary>

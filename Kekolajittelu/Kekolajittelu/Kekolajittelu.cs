@@ -2,6 +2,16 @@ using System;
 
 /// @author Kaisa Koski
 /// @version 30.3.2021
+/// 
+/// Algoritmit 2
+/// Ohjelmointitehtävä O1
+/// Kirjoita ohjelma, joka lajittelee kokonaislukutaulukon luvut suuruusjärjestykseen kekolajittelulla 
+/// (heapsort). Muodosta taulukko, joka sisältää satunnaisia kokonaislukuja, ja lajittele se tällä 
+/// menetelmällä. (Javassa ja C#:ssa satunnaislukuja voi luoda Random-luokan metodeilla.)
+///
+/// Varmista, että olet käyttänyt oikeaa menetelmää (heapsort) ja että luvut ovat lopuksi joko 
+/// vähenevässä tai kasvavassa suuruusjärjestyksessä.
+/// 
 /// <summary>
 /// Taulukon järjestäminen kekolajittelulla
 /// </summary>
